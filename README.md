@@ -1,4 +1,4 @@
-# Example of loading a .glb 3D map into Sionna RT for mobile network (digital-twin) simulations 
+# Example of loading a .glb 3D map into Sionna RT 
 
 1. Download any map based on latitude and longitude from https://download.geofabrik.de/ for the modeling of buildings and other objects, and from https://opentopography.org/ for DEM. Then, combine them to generate the .glb 3D map with buildings and terrain.
 

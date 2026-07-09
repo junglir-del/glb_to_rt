@@ -1,0 +1,15 @@
+ply
+format ascii 1.0
+element vertex 4
+property float x
+property float y
+property float z
+element face 2
+property list uchar int vertex_indices
+end_header
+-1708.79785 2260.02271 322.61084
+-1704.80115 2259.86011 322.61084
+-1708.34277 2271.21045 322.61084
+-1704.34607 2271.04785 322.61084
+3 0 1 2
+3 1 3 2

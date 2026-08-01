@@ -14,9 +14,11 @@
 
 # How to use the code to generate a 3D map (with terrain)
 
-python3 osm_pbf_DEM_precise_soil_fill.py ../Maps/chongqing-260703.osm.pbf output_soil_fill.glb --bbox 29.5410 106.5238 29.5865 106.5948 --material-mode infer --download-dem --dem-type COP30 --terrain-grid 200 --opentopo-key xxxxx
+python3 osm_pbf_DEM_precise_soil_fill2.py ../Maps/chongqing-260703.osm.pbf output_soil_fill.glb --bbox 29.5410 106.5238 29.5865 106.5948 --material-mode infer --download-dem --dem-type COP30 --terrain-grid 200 --opentopo-key xxxxx
 
 (The output files are: "output_soil_fill.glb", the corresponding JSON file, as well as the downloaded .tif file that matches the latitude and longitude.)
+
+![alt text](example_map.png)
 
 1. Map selection:
 
